@@ -1,4 +1,4 @@
-const getTotalPrice = (price, quantity) => price * quantity;
+const getTotalPrice = (price, quantity) => {return `${price * quantity}円`;};
 
 const addTax = total =>total * 1.1;
 
