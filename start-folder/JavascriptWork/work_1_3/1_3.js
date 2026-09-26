@@ -10,7 +10,7 @@ const addTax = total => {
 
 // 1. 小計を求めて出力（※課題の指定通りの文言に合わせます）
 const total = getTotalPrice(1000, 2);
-console.log(`税込み金額は${total}円です`);
+console.log(`税抜金額は${total}円です`);
 
 // 2. 税込金額を求めて出力
 const taxedTotal = addTax(total);
